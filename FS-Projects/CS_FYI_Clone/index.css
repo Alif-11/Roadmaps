@@ -2,14 +2,9 @@
   display: flex;
   justify-content: space-between;
   width: 100vw;
-}
-
-#homepage-navbar-left {
-  margin-left: 5px;
-}
-
-#homepage-navbar-right {
-  margin-right: 5px;
+  margin: 0 auto;
+  color: #e5e7eb;
+  max-width: 750px;
 }
 
 body {
