@@ -42,6 +42,30 @@ body {
 }
 
 .webpage-listing {
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.webpage-listing a {
   color: rgb(255, 255, 255);
   font-size: 25px;
+}
+
+.webpage-listing-date {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.webpage-listing-date:hover {
+  color: rgb(255, 255, 255);
+
+}
+
+
+
+.no-link-decoration {
+  text-decoration: none;
 }
