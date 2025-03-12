@@ -45,6 +45,8 @@ body {
   font-size: 25px;
   display: flex;
   justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
@@ -59,9 +61,8 @@ body {
   font-weight: 200;
 }
 
-.webpage-listing-date:hover {
+.webpage-listing:hover .webpage-listing-date {
   color: rgb(255, 255, 255);
-
 }
 
 
