@@ -1,0 +1,8 @@
+@import url("index.css");
+
+.article-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  margin-top: 50px;
+}
