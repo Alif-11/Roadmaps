@@ -16,23 +16,40 @@
 
 #search-bar {
   width: 60%;
-  height: 34px;
+  height: 46px;
   padding: 0;
 }
 
 #search-button {
-  width: 85px;
-  height: 38px;
+  width: 100px;
+  height: 50px;
   color: white;
-  background-color: plum;
+  background-color: #6C63FF;
   border-radius: 5px;
   border-color: white;
   border-style: solid;
 }
 
 #search-button:hover {
-  background-color: rgb(218, 100, 218);
+  background-color: #5850DD;
 }
+
+#day-night-button {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: #6C63FF;
+  border-radius: 5px;
+  border-color: white;
+  border-style: solid;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+#day-night-button:hover {
+  background-color: #5850DD;
+}
+
 
 .flex-left-right {
   display: flex;
