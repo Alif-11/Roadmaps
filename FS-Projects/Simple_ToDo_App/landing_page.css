@@ -57,6 +57,14 @@
 }
 
 
+#task-container {
+  height: 90vmin;
+}
+
+#add-task-container {
+  display: flex;
+  justify-content: end;
+}
 
 
 
