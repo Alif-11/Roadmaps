@@ -50,20 +50,57 @@
   background-color: #5850DD;
 }
 
+#add-task-button {
+  background-color: #6C63FF;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+}
+
+#add-task-button:hover {
+  background-color: #5850DD;
+}
+
+#close-task-button {
+  background-color: #6C63FF;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+}
+
+#close-task-button:hover {
+  background-color: #5850DD;
+}
+
+#add-task-popup {
+  /*display: none;*/
+  position: fixed;
+  top: 30%;
+  left: 40%;
+}
 
 .flex-left-right {
   display: flex;
   justify-content: space-between;
 }
 
-
 #task-container {
-  height: 90vmin;
+  height: 50vmin;
 }
 
 #add-task-container {
   display: flex;
   justify-content: end;
+}
+
+#close-task-container {
+  margin-top: 20px;
 }
 
 
